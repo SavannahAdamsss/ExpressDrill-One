@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-      "cors": "^2.8.4",
-      "express": "^4.16.3"
-  },
   "name": "ExpressDrill-One",
   "version": "1.0.0",
   "description": "Solution to serve data to clients",
@@ -12,5 +8,13 @@
       "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Savannah Adams",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SavannahAdamsss/ExpressDrill-One/issues"
+  },
+  "homepage": "https://github.com/SavannahAdamsss/ExpressDrill-One#readme",
+  "dependencies": {
+      "cors": "^2.8.4",
+      "express": "^4.16.3"
+  }
 }

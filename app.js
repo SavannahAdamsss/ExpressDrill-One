@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const data = require("./cohorts");
 const app = express();
-let PORT = process.env.PORT || 3000;
+PORT = process.env.PORT || 3000;
 
 function findById(data, id){
     for (let i = 0; i < data.length; i++){
@@ -32,4 +32,4 @@ app.get("/:id", function (request, response) {
     }
 });
 
-app.listen(PORT);
+app.listen(3000);
